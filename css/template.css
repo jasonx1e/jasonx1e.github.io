@@ -1,0 +1,10 @@
+/*Picture Transition CSS
+*/
+
+#pic img {
+  position: absolute;
+  transition: opacity .3s ease;
+}
+#pic img:hover {
+  opacity: 0;
+}
