@@ -155,13 +155,13 @@ sup {
  top:-.5em
 }
 a {
- color:#d9a3ff;
+ color:#58a6ff;
  text-decoration:none;
  background-color:transparent;
  -webkit-text-decoration-skip:objects
 }
 a:hover {
- color:#8585ff
+ color:#0c7dff
 }
 a:not([href]):not([tabindex]) {
  color:inherit;
@@ -5528,7 +5528,7 @@ button.bg-light:hover {
  background-color:#dae0e5!important
 }
 .bg-dark {
- background-color:#262c31 !important;
+ background-color:#242c39 !important;
 }
 a.bg-dark:focus,
 a.bg-dark:hover,
