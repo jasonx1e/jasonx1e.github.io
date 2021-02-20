@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="overflow-y:scroll">
+<html lang="en" class="bg-dark" style="overflow-y:scroll">
 
   <head>
 
@@ -23,7 +23,7 @@
 
   <body id="page-top">
 
-    <header id="about" class="bg-white" style="padding:40px 0 0 0">
+    <header id="about" class="bg-dark" style="padding:40px 0 0 0">
       <div class="container">
 
         <div id="header" style="padding-left:0">
@@ -31,38 +31,42 @@
               <a href="/">Jason Xie</a>
             </h2>
             <h6 style="text-align:center; margin-bottom:0">
-              Email: hello [at] jasonxie [dot] me
+              <span>Email: </span>
+              <span class="text-warning">jasonx1e [at] uw.edu</span>
             </h6>
         </div>
 
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-9 mx-auto">
           <div class="row mx-auto">
-            <div id="about" class="col-sm-9 text-left" style="padding-left:0">
+
+            <div id="pic" class="col-sm-3 mx-auto" style="display:flex; align-items:center; flex-wrap:wrap; padding-left:0">
+              <img src="static/img/home1.jpg" class="img-thumbnail img-responsive">
+            </div>
+
+            <div id="about" class="col-sm-8 text-left" style="padding-left:0">
               <br>
-              <p style="font-size:1.1em">
-                I am an undergraduate student in the <a href="https://www.ece.uw.edu/">Department of Electrical & Computer Engineering</a> at the 
-                <a href="http://www.washington.edu/">University of Washington</a>.
-                My <a href="#courses" data-toggle="collapse" data-target="#courseslist" aria-expanded="false" aria-controls="courseslist">academic background</a>
-                draws broadly from theoretical and algorithmic aspects of signal and image processing, machine learning, control systems, and numerical optimization, 
-                with applications to perception, planning, and control in robotics.
+              <p class="text-white" style="font-size:1.1em">
+                I am a student in the <a href="https://www.ece.uw.edu/">Department of Electrical & Computer Engineering</a> at the 
+                <a href="http://www.washington.edu/">University of Washington</a> with a Systems, Controls, and Robotics concentration.
+                My background draws broadly from computer vision, machine (deep) learning, machine (deep) learning, control systems, 
+                numerical optimization, and digital signal processing, with applications to perception, estimation, learning and control in robotics.              
               </p>
-              <p style="font-size:1.1em">
+              
+              <p class="text-white" style="font-size:1.1em">
                 In my free time, I participate in STEM <a href="#service" data-toggle="collapse" data-target="#servicelist" aria-expanded="false" aria-controls="servicelist">
                 education and outreach</a>.
                 Occasionally, I also play music, <a href="https://musescore.com/user/211651">arrange music</a>, and <a href="#art" data-toggle="collapse" data-target="#artlist" aria-expanded="false" aria-controls="artlist">draw stuff</a>.
               </p>
+              <br>
             </div>
-            <div id="pic" class="col-sm-3 mx-auto" style="display:flex; align-items:center; flex-wrap:wrap; padding-left:0">
-              <img style="max-height:300px"src="static/img/home1.png" class="img-responsive img-thumbnail" alt="Jason Xie">
-              <img style="max-height:300px"src="static/img/home2.jpg" class="img-responsive img-thumbnail" alt="Jason Xie">
-            </div>
+            
           </div>
         </div>
 
       </div>
     </header>
-    <br>
-    <section id="more">
+
+    <section id="more" class="bg-dark">
 
       <div class="container">
         <div class="col-lg-8 mx-auto" style="text-align:center">
@@ -71,16 +75,16 @@
             <a href="https://github.com/jasonx1e" class="btn btn-secondary" type="button">GITHUB</a>
             <a href="https://www.linkedin.com/in/jasonx1e/" class="btn btn-primary" type="button">LINKEDIN</a>
 
-            <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#projectslist" aria-expanded="false" aria-controls="projectslist">
-            PROJECTS
+            <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#noteslist" aria-expanded="true" aria-controls="noteslist">
+            NOTES
             </button>
-            <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#courseslist" aria-expanded="false" aria-controls="courseslist">
-            COURSES
+            <!-- <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#courseslist" aria-expanded="false" aria-controls="courseslist">
+            COURSES -->
             </button>
-            <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#servicelist" aria-expanded="false" aria-controls="servicelist">
+            <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#servicelist" aria-expanded="false" aria-controls="servicelist">
             SERVICE
             </button>  
-            <button class="btn btn-outline-danger" type="button" data-toggle="collapse" data-target="#artlist" aria-expanded="false" aria-controls="artlist">
+            <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#artlist" aria-expanded="false" aria-controls="artlist">
             ART
             </button>
           </h4>
@@ -90,61 +94,60 @@
 
 
       <div class="container">
-        <div class="col-lg-8 mx-auto bg-light">
+        <div class="col-lg-8 mx-auto">
           <br>
-          <h5>News</h5>
+          <h5 class="text-white">News</h5>
           <hr>
-          <ul>
+          <ul class="text-white">
             <li>09/2020 - Appointed to the ECE Curriculum Committee for the 2020-2021 Academic Year. <br>
               Feel free to contact me about any related inquiries and I will get back to you ASAP.</li>
             <li>04/2020 - Website overhaul! <a href="https://github.com/jasonx1e/jasonx1e.github.io">Template available here</a><br>
               Adopters: <a href="https://hamlinliu17.github.io/">☆</a></li>
-            <li>09/2019 - Started school at the University of Washington (Expected graduation: 2021)</li>
+            <li>09/2019 - Started school at the University of Washington (Expected graduation: Dec 2021)</li>
           </ul>
           <br>
 
-          <div class="collapse" id="projectslist" style="text-align:left">
-            <h5>Projects</h5>
+          <div class="collapse show" id="noteslist" style="text-align:left">
+            <h5 class="text-white">Notes</h5>
             <hr>
-            <p>More coming soon! In the meantime, take a look at my <a href="https://github.com/jasonx1e">GitHub</a>.</p>
-            <p>(Recruiters: please contact me directly for more information)</p>
+            <!-- <p class="text-white">More coming soon! In the meantime, take a look at my <a href="https://github.com/jasonx1e">GitHub</a>.</p>
+            <p class="text-white">(Recruiters: please contact me directly for more information)</p> -->
 
             <div class="row">
               <div class="col-xs-6 col-sm-4 mx-auto" style="display:flex; align-items:center">
-                <img class="img-responsive" src="static/img/opt_ex.jpeg" alt="...">
+                <img class="img-thumbnail img-responsive" src="static/img/cv_robot.png" alt="...">
               </div>
               <div class="col-xs-12 col-sm-8" style="padding-top:0.5em">
-                <h5>Numerical Optimization Examples</h5>
-                <p>
+                <h5 class="text-white">3D Computer Vision for Robotics</h5>
+                <p class="text-white">
+                  Short lecture on computer vision, prepared for UW graduate students in Aerospace, Electrical,
+                  and Mechanical Engineering.
+                </p>
+                <ul style="list-style-position: inside; padding-left: 0"> Selected Topics:
+                  <li>Projective Geometry</li>
+                  <li>Camera Calibration</li>
+                  <li>Epipolar Geometry</li>
+                  <li>Applications in Manipulation and Autonomous Driving</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-6 col-sm-4 mx-auto" style="display:flex; align-items:center">
+                <img class="img-thumbnail img-responsive" src="static/img/opt_ex.jpeg" alt="...">
+              </div>
+              <div class="col-xs-12 col-sm-8" style="padding-top:0.5em">
+                <h5 class="text-white">Numerical Optimization Examples</h5>
+                <p class="text-white">
                   Some sample implementations of optimization algorithms applied to numerical problems with Python code.
-                  <ul>
+                  <ul style="list-style-position: inside; padding-left: 0">
                     <li><a href="static/docs/surface.pdf">Projected Gradient Descent for Surface Area Minimization</a></li>
-                    <li><a href="static/docs/p2.html">Lasso for Compressed Sensing (Sparse Image Recovery)</a></li>
+                    <!-- <li><a href="static/docs/p2.html">Lasso for Compressed Sensing (Sparse Image Recovery)</a></li> -->
                     <li><a href="static/docs/bfgs_example.html">2nd Order Unconstrained Minimization</a></li>
                   </ul>
                 </p>
               </div>
             </div>
-
-
-            <!--
-            <div class="row">
-              <div class="col-xs-6 col-sm-3 mx-auto" style="display:flex; align-items:center">
-                <img class="img-responsive" src="static/img/proj_opt.jpg" alt="...">
-              </div>
-              <div class="col-xs-12 col-sm-9" style="padding-top:0.5em">
-                <h5>TITLE</h5>
-                <h6>AUTHORS / <b>Jason Xie</b>
-                </h6>
-                  <a href="LINK_TO_CODE">LINK NAME</a>
-                </h6>
-                <p>
-                  <br>
-                  DESCRIPTION.
-                </p>
-              </div>
-            </div>
-            -->
 
             <br>
           </div>
@@ -157,7 +160,7 @@
             University of Washington
             <ul>
               <li>Undergraduate Representative<br>
-                (Academic Year 2020-2021) ECE Curriculum Committee</li>
+                (Academic Year 2020-2021) <a href="https://vannevar.ece.uw.edu/operations/administration/committeelist.html">ECE Curriculum Committee</a></li>
             </ul>
             UC Berkeley
             <ul> 
@@ -178,7 +181,7 @@
           </div>
 
 
-          <div class="collapse" id="courseslist">
+          <!-- <div class="collapse" id="courseslist">
             <h5>Courses</h5>
             <hr>
               University of Washington (Graduate)
@@ -209,14 +212,14 @@
                 <li>(Summer 2018) Des Inv 15 - Design Methodology</li>
               </ul>
               <br>
-          </div>
+          </div> -->
 
 
           <div class="collapse" id="artlist" style="text-align:left">
             <h5>Art</h5>
             <hr>
             
-            All depicted non-generic figures are subject to the copyrights of their respective owners.
+            All non-generic depicted figures are subject to the copyrights of their respective owners.
             <br>
             <br>
 
@@ -378,11 +381,11 @@
 
   </body>
 
-  <footer>
+  <footer class="bg-dark">
     <div class="container">
-      <div class="col-lg-8 mx-auto bg-white" style="text-align:center">
+      <div class="col-lg-8 mx-auto" style="text-align:center">
         <br>
-        <p style="margin-bottom:0">© 2020 Jason Xie</p>
+        <p style="margin-bottom:0">© 2020-2021 Jason Xie</p>
         <br>
       </div>
     </div>
