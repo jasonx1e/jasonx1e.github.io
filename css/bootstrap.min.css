@@ -36,7 +36,7 @@
 *,
 ::after,
 ::before {
- box-sizing:border-box
+ box-sizing:border-box;
 }
 html {
  font-family:sans-serif;
@@ -113,7 +113,7 @@ dl,
 ol,
 ul {
  margin-top:0;
- margin-bottom:1rem
+ margin-bottom:1rem;
 }
 ol ol,
 ol ul,
@@ -358,6 +358,10 @@ h5 {
 .h6,
 h6 {
  font-size:1rem
+}
+.h7,
+h7 {
+ font-size:1.1rem
 }
 .lead {
  font-size:1.25rem;
